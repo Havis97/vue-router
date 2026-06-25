@@ -6,4 +6,4 @@ const app = createApp(App);
 
 app.use(router);
 
-createApp(app).mount("#App");
+app.mount("#app");
